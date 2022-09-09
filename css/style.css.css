@@ -1,56 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Arima:wght@100;300;400;500&family=Roboto:wght@100;300;400;500;700&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-
-body {
-  background-color: #ffe8ef;
-}
-
-/*header*/
-
-.titulo-home {
-  font-family: "Arima", cursive;
-}
-
-/*inicio*/
-
-.hero {
-  background-image: url("../images/gradienterosado.jpg");
-  height: 20vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 10px;
-}
-
-#titulos {
-  color: #c22557;
-  font-family: "Arima", cursive;
-}
-
-.hero2 {
-  background-image: url("../images/sonrienteotoño.jpg");
-  height: 70vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.hero2 h1 {
-  background-color: white;
-}
-
-.hero3 {
-  background-image: url("../images/gradienterosado.jpg");
-  height: 20vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 10px;
-}
-
 .redes-container {
   display: flex;
   height: 100vh;

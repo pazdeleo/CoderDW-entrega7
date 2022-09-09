@@ -1,0 +1,21 @@
+.hero {
+  @extend .styleheros;
+}
+
+.hero2 {
+  @extend .styleheros;
+  background-image: url("../images/sonrienteotoño.jpg");
+  height: 70vh;
+}
+
+.hero2 h1 {
+  background-color: white;
+}
+
+.styleheros {
+  background-image: url("./images/gradienterosado.jpg");
+  height: 20vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
