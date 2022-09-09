@@ -8,11 +8,19 @@
 }
 
 body {
-  background-color: #f2e7d2;
+  background-color: #ffe8ef;
 }
 
+/*header*/
+
+.titulo-home {
+  font-family: "Arima", cursive;
+}
+
+/*inicio*/
+
 .hero {
-  background-image: url("../images/amigas\ sonrisa.jpg");
+  background-image: url("../images/gradienterosado.jpg");
   height: 20vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,50 +28,57 @@ body {
 }
 
 #titulos {
-  color: rgb(238, 178, 218);
+  color: #c22557;
   font-family: "Arima", cursive;
-}
-
-#titulos:hover {
-  animation: shadow-drop-2-tr 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-@keyframes shadow-drop-2-tr {
-  0% {
-    transform: translateZ(0) translateX(0) translateY(0);
-    box-shadow: 0 0 0 0 transparent;
-  }
-  100% {
-    transform: translateZ(50px) translateX(-12px) translateY(12px);
-    box-shadow: 12px -12px 20px -12px rgba(0, 0, 0, 0.35);
-  }
-}
-
-#imagen-animacion:hover {
-  animation: kenburns-top 5s ease-out both;
-}
-@keyframes kenburns-top {
-  0% {
-    transform: scale(1) translateY(0);
-    transform-origin: 50% 16%;
-  }
-  100% {
-    transform: scale(1.25) translateY(-15px);
-    transform-origin: top;
-  }
 }
 
 .hero2 {
   background-image: url("../images/sonrienteotoño.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero2 h1 {
+  background-color: white;
+}
+
+.hero3 {
+  background-image: url("../images/gradienterosado.jpg");
   height: 20vh;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
 }
 
-.hero3 {
-  background-image: url("../images/pexels-taryn-elliott-3889928.jpg");
-  height: 20vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 10px;
+.redes-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.cita {
+  color: #c22557;
+}
+
+.textocarrusel {
+  background-color: rgb(144, 144, 144);
+}
+
+.redes-container ul li {
+  display: inline-block;
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.redes-container ul li a {
+  display: block;
+  padding: 0 10px;
+  background-color: black;
+  color: white;
+  line-height: 50px;
+  font-size: 18px;
 }
